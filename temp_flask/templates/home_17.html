@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+ <h1>select url menu</h1>
+ <body>
+  <p>Input Single URL</p></br>
+  <form method="POST" action="/url">
+   <input type="text" placeholder="URL" name="singleURL">
+   <button type="submit">analyze url</button></br>
+  </form></br>
+  <p>Input URL TextFile</p>
+  <form method="POST" action="http://localhost:5000/fileUpload" enctype="multipart/form-data">
+   <input type="file" name="file" />
+   <input type="submit"/>
+  </form></br>
+ </body>
+</html>
