@@ -1,3 +1,0 @@
-git text
-local>remote modify
-remote>local modify
